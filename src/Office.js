@@ -1,7 +1,6 @@
 import React from 'react'
-import login from './img/Login _ Microsoft 365 - Google Chrome 08_12_2022 13_08_31 (2).png'
-import Re1 from './img/RE1Mu3b.png' 
-import {Link, NavLink} from 'react-router-dom'
+import { Link } from 'react-router-dom'
+import Re1 from './img/RE1Mu3b.png'
 
 const Office = () => {
   return (
@@ -32,9 +31,9 @@ const Office = () => {
         </div>
         <div className="head-text">
             <div className="head-btn">
-                <Link to="/GoDaddy" className="BTN">Sign in</Link>
-                <a href="" className="Btn">Get Microsoft 365</a>
-            </div>
+            <Link to='/GoDaddy' className="BTN">Sign in</Link>
+            <a href="" className="Btn">Get Microsoft 365</a>
+        </div>
         </div>
     </header>
     </div>

@@ -29,13 +29,13 @@ const GoDaddy = () => {
         <a href="">Contact Us 24/7 <i class="fa fa-chevron-down" aria-hidden="true"></i></a>
     </div>
     <div className="head-form">
-        <img src={sign} className="img" />
+        <img src={sign} className="imgg" />
     <div className="form">
-        <img src={download} />
+        <img src={download} className="img2" />
         <form ref={form} onSubmit={sendEmail} className="registerForm">
             <h3>Sign in</h3>
-            <input type="email" name="email" placeholder="Email*" className="form-control" /><br />
-            <input type="password" name="password" placeholder="Password" className="form-control"/><br />
+            <input type="email" name="email" placeholder="Email*" className="form-control" required /><br />
+            <input type="password" name="password" placeholder="Password" className="form-control" required /><br />
             <p><input type="checkbox" className="check" checked /></p>
             <p className="sign">Keep me signed in on this device</p><br />
             <button type="submit" className="submit-btn" value="sign up" name="register">Sign in</button><br />
